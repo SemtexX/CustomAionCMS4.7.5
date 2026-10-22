@@ -1,0 +1,2 @@
+[23-Aug-2019 07:36:23 UTC] PHP Fatal error:  Call to a member function queryFetch() on null in /home/aioncms/dev.aioncms.com/aioncp/api/live_2.php on line 19
+[23-Aug-2019 07:36:34 UTC] PHP Fatal error:  Call to a member function queryFetch() on null in /home/aioncms/dev.aioncms.com/aioncp/api/live_2.php on line 19

@@ -1,0 +1,60 @@
+.rankings-quote {
+	font-size: 14pt;
+	text-align: center;
+	font-style: italic;
+	color: #777;
+	padding: 30px 0px;
+}
+	.rankings-quote span {
+		font-size: 24pt;
+		color: #444;
+	}
+
+.rankings-title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16pt;
+	border-bottom: 1px solid #ccc;
+	margin-top: 30px;
+	color: #555;
+	padding: 8px 0px;
+}
+
+.rankings-selection {
+	margin-top: 30px;
+	text-align: center;
+}
+	.rankings-selection a {
+		text-decoration: none;
+		color: #d17b14;
+	}
+	.rankings-selection a:hover, .rankings-selection a:active {
+		text-decoration: none;
+		color: #ffb865;
+	}
+	.rankings-selection a.active {
+		font-weight: bold;
+	}
+	
+.rankings-table {
+	width: 100%;
+	margin-top: 40px;
+}
+	.rankings-table thead tr th {
+		text-align: left;
+		border-bottom: 2px solid #000;
+		margin: 0px;
+		padding: 5px 0px;
+	}
+	.rankings-table tbody tr td {
+		text-align: left;
+		border-bottom: 1px dotted #ccc;
+		margin: 0px;
+		padding: 5px 0px;
+	}
+
+
+
+
+
+
+

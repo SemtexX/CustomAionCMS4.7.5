@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTPS} !=on
+RewriteRule ^https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^page/([a-zA-Z0-9\_/]+)/?$ index.php?request=$1
+RewriteRule ^legion/(.*)/?$ legion.php?request=profile/legion/$1
+RewriteRule ^legionemblem/([0-9]+).dds$ api/legionEmblem.php?key=WJaddps23DZM&legionid=$1

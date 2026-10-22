@@ -1,0 +1,145 @@
+@import "https://fonts.googleapis.com/css?family=Special+Elite";
+.shop-container {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    min-height: 600px
+}
+
+.shop-container .shop-header {
+    background: #000 url(../img/webshop/honeycomb_mesh.jpg) repeat;
+    width: 100%;
+    border: 1px solid #333;
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: special elite, cursive
+}
+
+.shop-container .shop-header .row {
+    padding: 40px 0 0
+}
+
+.shop-container .shop-header a {
+    color: #ff9600
+}
+
+.shop-container .shop-header a:hover,
+.shop-container .shop-header a:active {
+    color: #fc0
+}
+
+.shop-container .shop-content {
+    width: 100%;
+    background: #fff;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333
+}
+
+.shop-container>.shop-content>.row {
+    margin: 0;
+    display: table;
+    width: 100%
+}
+
+.shop-container>.shop-content>.row>.sidebar {
+    background: #000;
+    padding: 0;
+    height: 100%;
+    display: table-cell;
+    float: none
+}
+
+.shop-container>.shop-content>.row>.items-content {
+    display: table-cell;
+    float: none;
+    padding-top: 15px;
+    overflow: hidden
+}
+
+.nav-sidebar>li {
+    border-bottom: 1px dotted #121212
+}
+
+.nav-sidebar>li>a {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer
+}
+
+.nav-sidebar>li>a:hover,
+.nav-sidebar>li>a:focus {
+    background-color: #111;
+    color: #fc0
+}
+
+.nav-sidebar>li>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.nav-sidebar>li>ul>.sub-category>a {
+    color: #aaa;
+    padding-left: 30px;
+    font-size: 11px;
+    background-color: #000
+}
+
+.nav-sidebar>li>ul>.sub-category>a:hover,
+.nav-sidebar>li>ul>.sub-category>a:focus {
+    color: #fc0
+}
+
+.shop-item-text {
+    font-weight: 700;
+    color: #000
+}
+
+.shop-quality-rare {
+    color: #69e15e!important
+}
+
+.shop-quality-legend {
+    color: #4ccfff!important
+}
+
+.shop-quality-unique {
+    color: #f0b71c!important
+}
+
+.shop-quality-epic {
+    color: #f08033!important
+}
+
+.shop-quality-mythic {
+    color: #8f39ce!important
+}
+
+.shop-quality-junk,
+.shop-quality-common {
+    color: #000!important
+}
+
+.shop-items-table tr td {
+    padding: 20px 0!important
+}
+
+.shop-item-detail {
+    background: #0d161c;
+    overflow: auto;
+    padding: 20px;
+    border: 5px solid #1b252e;
+    margin-bottom: 2px;
+	color: #fff;
+}
+
+.shop-purchase-box {
+    background: #f1f1f1;
+    padding: 20px;
+    border-top: 4px solid red
+}

@@ -1,0 +1,38 @@
+body {
+	line-height: normal;
+}
+
+.usercp-block .container {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000000;
+  border-color: #111111;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #333333;
+  border-color: #111111;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #333333;
+  border-color: #111111;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #333333;
+  border-color: #111111;
+}
+
+/* vertical align on td */
+.table tbody>tr>td.vert-align{
+    vertical-align: middle;
+}

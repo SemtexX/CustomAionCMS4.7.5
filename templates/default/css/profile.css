@@ -1,0 +1,148 @@
+.legion-profile-container {
+	width: 940px;
+	margin: 0px auto;
+	position: relative;
+	top: -100px;
+	min-height: 600px;
+	background: #000000;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 10px 3px #000;
+	-moz-box-shadow: 0px 0px 10px 3px #000;
+	box-shadow: 0px 0px 10px 3px #000;
+}
+
+.legion-profile-background {
+	width: 940px;
+	min-height: 600px;
+	/*background: url('../img/legion_default_background.png') no-repeat top center;*/
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.leagion-profile-header {
+	width: 762px;
+	height: 182px;
+	background: url('../img/legion_profile_header_gray.png') no-repeat top center;
+	margin: 0px auto 20px auto;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.35);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+	.red.leagion-profile-header {
+		background-image: url('../img/legion_profile_header_red.png') !important;
+	}
+
+	.green.leagion-profile-header {
+		background-image: url('../img/legion_profile_header_green.png') !important;
+	}
+
+	.blue.leagion-profile-header {
+		background-image: url('../img/legion_profile_header_blue.png') !important;
+	}
+
+	.leagion-profile-header .legion-emblem {
+		float: left;
+		width: 182px;
+	}
+
+	.leagion-profile-header .legion-emblem img {
+		position: relative;
+		left: 20px;
+		top: 19px;
+	}
+
+	.leagion-profile-header .legion-info {
+		float: left;
+		width: 580px;
+		padding-top: 15px;
+		color: #ccc;
+	}
+
+		.leagion-profile-header .legion-info .legion-name {
+			color: #ffffff;
+			font-weight: bold;
+			font-size: 60px;
+		}
+			.red.leagion-profile-header .legion-info .legion-name {
+				color: #ff6666 !important;
+			}
+			.green.leagion-profile-header .legion-info .legion-name {
+				color: #83ff66 !important;
+			}
+			.blue.leagion-profile-header .legion-info .legion-name {
+				color: #008cff !important;
+			}
+
+		.leagion-profile-header .legion-info .legion-alt-title {
+			color: #ffffff;
+			font-size: 12px;
+		}
+			.red.leagion-profile-header .legion-info .legion-alt-title {
+				color: #ff6666 !important;
+			}
+			.green.leagion-profile-header .legion-info .legion-alt-title {
+				color: #83ff66 !important;
+			}
+			.blue.leagion-profile-header .legion-info .legion-alt-title {
+				color: #008cff !important;
+			}
+
+.leagion-profile-block {
+	width: 760px;
+	background: rgba(70,70,70,0.40) url('../img/legion_profile_blockgloss.png') no-repeat top center;
+	margin: 10px auto 20px auto;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.35);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #272727;
+	color: #ccc;
+	padding: 20px;
+}
+
+	.red.leagion-profile-block {
+		background-color: rgba(70,23,23,0.40) !important;
+		border: 1px solid #260707 !important;
+	}
+
+	.green.leagion-profile-block {
+		background-color: rgba(33,70,23,0.40) !important;
+		border: 1px solid #0e2607 !important;
+	}
+
+	.blue.leagion-profile-block {
+		background-color: rgba(23,46,70,0.40) !important;
+		border: 1px solid #071826 !important;
+	}
+
+	.leagion-profile-block .legion-members-title {
+		font-weight: bold;
+		font-size: 20px;
+		border-bottom: 2px solid #030b12;
+		padding: 3px;
+		margin: 10px 0px;
+		color: #ffffff;
+	}
+		.red.leagion-profile-block .legion-members-title {
+			color: #ff6666 !important;
+		}
+		.green.leagion-profile-block .legion-members-title {
+			color: #83ff66 !important;
+		}
+		.blue.leagion-profile-block .legion-members-title {
+			color: #008cff !important;
+		}
+
+	.leagion-profile-block .legion-members-table {
+		width: 100%;
+	}
+	
+	.leagion-profile-block .legion-members-table tr:hover {
+		background: rgba(0,0,0,0.30);
+	}

@@ -1,0 +1,97 @@
+/* RETURNING PLAYERS CAMPAIGN */
+.rpc-page-container-1 {
+	background: #000000 url('../img/ga_rpc2015_bg.jpg') no-repeat top center;
+	width: 588px;
+	min-height: 1200px;
+	/*margin: 5px 5px 300px 5px;*/
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #9e9e9e;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+.rpc-page-container-2 {
+	background: #000000 url('../img/ga_rpc2015_bg_2.jpg') no-repeat top center;
+	width: 588px;
+	min-height: 1200px;
+	/*margin: 5px 5px 300px 5px;*/
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #9e9e9e;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+.rpc-page-container-3 {
+	background: #000000 url('../img/ga_rpc2015_bg_3.jpg') no-repeat top center;
+	width: 588px;
+	min-height: 600px;
+	/*margin: 5px 5px 300px 5px;*/
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #9e9e9e;
+	-webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+	.rpc-page-selectclass {
+		text-align: center;
+		position: relative;
+		top: 730px;
+		font-family: 'Marcellus', serif;
+		color: #cccccc;
+		font-size: 10pt;
+	}
+		.rpc-page-selectclass a, .rpc-page-message a {
+			color: #777777;
+			font-size: 16pt;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: 'Marcellus', serif;
+			-o-transition:.5s;
+			-ms-transition:.5s;
+			-moz-transition:.5s;
+			-webkit-transition:.5s;
+			transition:.5s;
+		}
+		.rpc-page-selectclass a:hover, .rpc-page-message a:hover {
+			color: #ff7800;
+			-o-transition:color .2s ease-out;
+			-ms-transition:color .2s ease-out;
+			-moz-transition:color .2s ease-out;
+			-webkit-transition:color .2s ease-out;
+			transition:color .2s ease-out;
+		}
+	.rpc-page-reward {
+		text-align: center;
+		position: relative;
+		top: 400px;
+		font-family: 'Marcellus', serif;
+		color: #cccccc;
+		padding: 0px 20px;
+	}
+		.rpc-page-reward a {
+			color: #cccccc;
+			text-decoration: none;
+			font-family: 'Marcellus', serif;
+			-o-transition:.5s;
+			-ms-transition:.5s;
+			-moz-transition:.5s;
+			-webkit-transition:.5s;
+			transition:.5s;
+		}
+		.rpc-page-reward a:hover {
+			color: #ffffff;
+			-o-transition:color .2s ease-out;
+			-ms-transition:color .2s ease-out;
+			-moz-transition:color .2s ease-out;
+			-webkit-transition:color .2s ease-out;
+			transition:color .2s ease-out;
+		}
+	.rpc-page-message {
+		text-align: center;
+		position: relative;
+		top: 280px;
+		font-family: 'Marcellus', serif;
+		color: #ffffff;
+		padding: 0px 20px;
+		font-size: 16pt;
+	}
